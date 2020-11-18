@@ -1,0 +1,6 @@
+div {
+  color: blue;
+}
+div:not(.no-hover):hover { /* only apply hover styling when the div does not have the class 'no-hover' */
+  color: red;
+}
